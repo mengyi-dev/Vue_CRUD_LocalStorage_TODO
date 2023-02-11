@@ -1,6 +1,6 @@
 <template>
     <div
-        class="box-shaw-style w-6/12 mx-auto p-2 text-start leading-10 relative"
+        class="box-shaw-style md:w-6/12 w-full p-5 mx-auto text-start leading-10 relative"
     >
         <h2 class="font-bold text-xl text-green-600">{{ item.title }}</h2>
         <p class="text-xs w-fit bg-red-600 text-white rounded-3xl px-2 mt-4">

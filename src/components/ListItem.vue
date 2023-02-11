@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-if="todos.length > 0" class="flex flex-col gap-2 w-full mt-10">
+        <div v-if="todos.length > 0" class="flex flex-col gap-2 w-full mt-10 px-5">
             <CardItem v-for="(item, index) in orderData" :item="item" :key="index" @delete="remove(item)" @edit="handleClickModal(item.id)">
                 <Modal v-if="isOpenEdit" @action="handleClickModal" @update="update" :item="itemToEdit" />
             </CardItem>

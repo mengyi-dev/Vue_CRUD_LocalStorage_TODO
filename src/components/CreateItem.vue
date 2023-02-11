@@ -1,9 +1,9 @@
 <template>
-    <form v-on:submit="getData" class="w-6/12 mx-auto relative flex">
+    <form v-on:submit="getData" class="md:w-6/12 px-5 mx-auto relative flex">
         <input type="text" required
             placeholder="Go to the gym"
             v-model="title"
-            class="border w-[80%] p-2 outline-primary"
+            class="border w-[80%] p-2 outline-primary sm:w-full"
         >
         <select v-model="priority" 
             class="outline-primary bg-red-600 text-white p-[1px]"

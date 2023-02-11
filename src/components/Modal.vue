@@ -1,7 +1,7 @@
 <template>
-    <div class="w-full h-screen fixed left-0 top-0 z-0 flex items-center">
+    <div class="w-full h-screen fixed left-0 top-0 z-0 flex items-center px-5">
         <div @click="this.$emit('action')" class="w-full h-screen fixed left-0 top-0 bg-slate-400 opacity-50 z-0"></div>
-        <div class="w-6/12 h-[300px] bg-white mx-auto  p-5 z-50 transition-all delay-300">
+        <div class="md:w-6/12 h-[300px] bg-white mx-auto  p-5 z-50 transition-all delay-300">
             <h1 class="text-primary font-semibold text-2xl">Edit Todo</h1>
             <form @submit="handleSubmit" class="w-full mx-auto relative flex my-auto bg-white mt-8">
                 <input type="text" required
